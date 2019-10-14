@@ -1,1 +1,1 @@
-web: gunicorn --preload -w 4 isso.dispatch --log-file=- --access-logfile=-
+web: gunicorn --preload -w 4 isso.run --log-file=- --access-logfile=-
