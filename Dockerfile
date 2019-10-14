@@ -7,4 +7,3 @@ WORKDIR /code
 COPY . /code/
 
 RUN mkdir -p /var/lib/isso
-RUN cat /code/isso.cfg
