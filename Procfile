@@ -1,1 +1,1 @@
-web: isso -c /code/isso.cfg run
+web: gunicorn --preload -w 4 isso.dispatch --log-file=- --access-logfile=-
